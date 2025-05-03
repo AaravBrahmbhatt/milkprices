@@ -1,5 +1,5 @@
-# config file for API information
-config.py
+###API INFO
+API_KEY = "..."
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
