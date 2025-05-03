@@ -1,7 +1,6 @@
 import requests
-from config import API_KEY
+from gitignore import API_KEY
 
-API_KEY = "0jalvgng5h70u2"
 url = "https://www.numbeo.com/api/"
 country = "Switzerland"
 fields = {"api_key": API_KEY}
@@ -44,5 +43,3 @@ f.close()
 SwitzerlandPrice = totalPrice/cityCount
 
 print("\n" + "Average milk price in Switzerland: $" + str(round(SwitzerlandPrice, 2)))
-
-
